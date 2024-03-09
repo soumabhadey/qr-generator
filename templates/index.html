@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <form action="/qr_code" method="get">
+        <input autocomplete="off" autofocus name="text" placeholder="enter text" required type="text">
+        <input type="submit">
+    </form>
+
+{% endblock %}
